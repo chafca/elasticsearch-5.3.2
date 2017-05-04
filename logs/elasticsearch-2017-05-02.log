@@ -1,0 +1,27 @@
+[2017-05-02T14:34:17,817][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-05-02T14:34:18,099][INFO ][o.e.e.NodeEnvironment    ] [NVYklkc] using [1] data paths, mounts [[System (C:)]], net usable_space [105.3gb], net total_space [166.5gb], spins? [unknown], types [NTFS]
+[2017-05-02T14:34:18,099][INFO ][o.e.e.NodeEnvironment    ] [NVYklkc] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-05-02T14:34:18,115][INFO ][o.e.n.Node               ] node name [NVYklkc] derived from node ID [NVYklkcXT8KloSn64Cibpw]; set [node.name] to override
+[2017-05-02T14:34:18,115][INFO ][o.e.n.Node               ] version[5.3.2], pid[6420], build[3068195/2017-04-24T16:15:59.481Z], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_74/25.74-b02]
+[2017-05-02T14:34:19,810][INFO ][o.e.p.PluginsService     ] [NVYklkc] loaded module [aggs-matrix-stats]
+[2017-05-02T14:34:19,825][INFO ][o.e.p.PluginsService     ] [NVYklkc] loaded module [ingest-common]
+[2017-05-02T14:34:19,825][INFO ][o.e.p.PluginsService     ] [NVYklkc] loaded module [lang-expression]
+[2017-05-02T14:34:19,825][INFO ][o.e.p.PluginsService     ] [NVYklkc] loaded module [lang-groovy]
+[2017-05-02T14:34:19,825][INFO ][o.e.p.PluginsService     ] [NVYklkc] loaded module [lang-mustache]
+[2017-05-02T14:34:19,825][INFO ][o.e.p.PluginsService     ] [NVYklkc] loaded module [lang-painless]
+[2017-05-02T14:34:19,841][INFO ][o.e.p.PluginsService     ] [NVYklkc] loaded module [percolator]
+[2017-05-02T14:34:19,841][INFO ][o.e.p.PluginsService     ] [NVYklkc] loaded module [reindex]
+[2017-05-02T14:34:19,841][INFO ][o.e.p.PluginsService     ] [NVYklkc] loaded module [transport-netty3]
+[2017-05-02T14:34:19,841][INFO ][o.e.p.PluginsService     ] [NVYklkc] loaded module [transport-netty4]
+[2017-05-02T14:34:19,857][INFO ][o.e.p.PluginsService     ] [NVYklkc] no plugins loaded
+[2017-05-02T14:34:26,610][INFO ][o.e.n.Node               ] initialized
+[2017-05-02T14:34:26,626][INFO ][o.e.n.Node               ] [NVYklkc] starting ...
+[2017-05-02T14:34:27,501][INFO ][o.e.t.TransportService   ] [NVYklkc] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2017-05-02T14:34:30,603][INFO ][o.e.c.s.ClusterService   ] [NVYklkc] new_master {NVYklkc}{NVYklkcXT8KloSn64Cibpw}{zjEiRCBuRiC3JqeGQoGuQg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-05-02T14:34:30,684][INFO ][o.e.g.GatewayService     ] [NVYklkc] recovered [0] indices into cluster_state
+[2017-05-02T14:34:31,019][INFO ][o.e.h.n.Netty4HttpServerTransport] [NVYklkc] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2017-05-02T14:34:31,034][INFO ][o.e.n.Node               ] [NVYklkc] started
+[2017-05-02T15:42:57,074][INFO ][o.e.n.Node               ] [NVYklkc] stopping ...
+[2017-05-02T15:42:57,174][INFO ][o.e.n.Node               ] [NVYklkc] stopped
+[2017-05-02T15:42:57,174][INFO ][o.e.n.Node               ] [NVYklkc] closing ...
+[2017-05-02T15:42:57,218][INFO ][o.e.n.Node               ] [NVYklkc] closed
