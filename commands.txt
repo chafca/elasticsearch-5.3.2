@@ -1,0 +1,68 @@
+/****************************************/
+/*********create object mappings*********/
+PUT heroes
+{
+    "mappings": {
+    "hero": {
+      "properties": {
+        "name": {
+          "type": "text"
+        },
+        "power": {
+            "type":"integer"
+        },
+        "powers": {
+            "type": "string"
+        }
+      }
+    }
+  }
+}
+
+/****************************************/
+/************multiple insert*************/
+PUT _bulk
+{ "index" : { "_index" : "heroes", "_type" : "hero", "_id" : "10" } }
+{ "create": { "name": "Mr. lepma", "powers": ["Mind control","Telekinesis"], "power" : 10 } }
+
+/****************************************/
+/**********searching by fields query*****/
+POST /heroes/hero/_search
+{
+    "query":{
+        "match": {"name": "kekela"}
+    }
+}
+
+POST /heroes/hero/_search
+{
+    "query":{
+        "match": {"power": "le"}
+    }
+}
+
+POST /heroes/hero/_search
+{
+    "query":{
+        "match": {"powers": "a"}
+    }
+}
+
+POST /heroes/hero/_search
+{
+    "query":{
+        "match_all": {}
+    }
+}
+
+/****************************************/
+/******************filter****************/
+
+/****************************************/
+/*******node increasing for replica******/
+-E node.max_local_storage_nodes=2
+
+
+
+
+
